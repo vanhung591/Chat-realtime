@@ -2,7 +2,6 @@ import React, {Suspense} from "react";
 import {Route, Routes} from "react-router-dom";
 import {RouteItems} from "routes/router-options";
 
-// refs: https://reactrouter.com/en/v6.3.0/getting-started/overview
 const SlackPublicRoutes = () => {
   return (
     <Suspense fallback={null}>

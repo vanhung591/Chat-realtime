@@ -57,7 +57,6 @@ export default function ProfileUpdateDialog(props) {
 
   return (
     <React.Fragment>
-      {/*refs: https://mui.com/material-ui/api/icon/*/}
       <IconButton onClick={handleClickOpen} sx={{color: "#fff"}} aria-label="delete" size="small">
         <EditIcon fontSize="inherit"/>
       </IconButton>

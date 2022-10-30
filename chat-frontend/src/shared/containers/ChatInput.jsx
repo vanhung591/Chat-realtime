@@ -6,7 +6,6 @@ import {auth, db} from "config/firebase";
 import {DATABASE_NAME} from "config/firestore.constant";
 import {useAuthState} from "react-firebase-hooks/auth";
 
-// Form library: react-hook-form || react-formik
 const ChatInput = (props) => {
   const {channel, channelId} = props;
   const [value, setValue] = useState("");
